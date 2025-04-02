@@ -1,0 +1,12 @@
+<script>
+ const numeros = [3, 5, 7, 0, "amor", 1, 3, 5, -3, NaN];
+
+ const sumar = numeros.reduce((acumulado, actual) => {
+  if (typeof actual == "number" && !isNaN(actual) && actual > 0) {
+   acumulado += actual;
+  }
+  return acumulado;
+ }, 1);
+
+ console.log(sumar);
+</script>

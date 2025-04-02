@@ -1,0 +1,5 @@
+<script>
+  const fn = (quitar, ...rest) => rest.reduce((acc, actual) => acc + actual, -10);
+  const suma = fn("+", 4, 5, 8);
+  console.log(suma);
+</script>
