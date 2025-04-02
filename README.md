@@ -3,7 +3,7 @@
  
 </div>
 <p align="center">
- <img src="https://github.com/julioavantt/julioavantt/blob/main/unicorn-with-glasses.png">
+ <img src="https://github.com/julioavantt/julioavantt/blob/main/unicorn-with-glasses.png" width="400px">
 </p>
 
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC38RutKRyCUHZ866mTNkUAw?link=https%3A%2F%2Fyoutube.com%2F%40juniorpride)
