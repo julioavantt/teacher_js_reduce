@@ -14,7 +14,7 @@
 - ⭐ Programo desde 2007 años, tengo 22 años.
 - 📲 Me especializo en Frontend.
 - 🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web. En Guayerd HTML, CSS, Javascript.
-- ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
+- ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Coderhouse, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
 - 🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
   <br>
 
