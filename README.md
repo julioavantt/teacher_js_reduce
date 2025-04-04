@@ -3,7 +3,7 @@
  
 </div>
 <p align="center">
- <img src="https://github.com/julioavantt/julioavantt/blob/main/unicorn-with-glasses.png" width="400px">
+ <img src="https://github.com/julioavantt/julioavantt/blob/main/unicorn-with-glasses.png" width="380px">
 </p>
 
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC38RutKRyCUHZ866mTNkUAw?link=https%3A%2F%2Fyoutube.com%2F%40juniorpride)
@@ -11,12 +11,12 @@
 
 ## Sobre mi
 
-- ⭐ Programo desde 2007 años, tengo 22 años.
-- 📲 Me especializo en Frontend.
-- 🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web. En Guayerd HTML, CSS, Javascript.
-- ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Coderhouse, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
-- 🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
-  <br>
+-  ⭐ Programo desde 2007 años, tengo 22 años.
+-  📲 Me especializo en Frontend.
+-  🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web. En Guayerd HTML, CSS, Javascript.
+-  ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Coderhouse, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
+-  🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
+   <br>
 
 ## Este repo trata sobre: Animate a REDUCE 👩🏻‍🦰🧒🏻!
 
@@ -27,7 +27,7 @@
 #### Array inicial
 
 ```javascript
-const numeros = [3, 5, 7, 1, 3, 5, -3];
+const numeros = [3, 5, 7, 1, 3, 5, -3]
 ```
 
 ### Ejercicio 2
@@ -37,12 +37,12 @@ const numeros = [3, 5, 7, 1, 3, 5, -3];
 #### Array inicial:
 
 ```javascript
-const numeros = [3, 5, 7, 0, "amor", 1, 3, 5, -3, NaN];
+const numeros = [3, 5, 7, 0, "amor", 1, 3, 5, -3, NaN]
 ```
 
 #### Requisitos:
 
-- Sólo sumar números enteros positivos.
+-  Sólo sumar números enteros positivos.
 
 ### Ejercicio 3
 
@@ -51,12 +51,12 @@ Crear una función **fn** que retorne la **suma de valores -10** y que excluya e
 #### Invocación:
 
 ```javascript
-fn("+", 4, 5, 8);
+fn("+", 4, 5, 8)
 ```
 
 #### Requisitos:
 
-- Excluir el primer parámetro.
+-  Excluir el primer parámetro.
 
 ### Ejercicio 4
 
@@ -65,12 +65,12 @@ Crear una función llamada **fn2** que retorne la suma o la resta de valores exc
 #### Invocación:
 
 ```javascript
-fn2("-", 4, 5, 8, 2, -4, 0, 77);
+fn2("-", 4, 5, 8, 2, -4, 0, 77)
 ```
 
 #### Requisitos:
 
-- Usar el primer parámetro para definir la operación aritmética.
+-  Usar el primer parámetro para definir la operación aritmética.
 
 ### Ejercicio 5
 
@@ -79,21 +79,21 @@ Crear una variable **crearFrase** a la que le asignamos la invocación de la fun
 #### Invocación:
 
 ```javascript
-fn(" ", "No", "todo", "lo", "que", "es", "oro", "brilla");
+fn(" ", "No", "todo", "lo", "que", "es", "oro", "brilla")
 ```
 
 #### Requisitos:
 
-- Usar el primer parámetro para definir el separador de concatenación.
-- La frase obtenida debe terminar con un signo de exclamación.
+-  Usar el primer parámetro para definir el separador de concatenación.
+-  La frase obtenida debe terminar con un signo de exclamación.
 
 ### Ejercicio 6
 
 Crear una variable **edadesGenero** a la cual asignaremos un objeto literal que contenga 2 propiedades: **fem** y **masc**. A cada una de esas propiedades asignaremos las siguientes propiedades anidadas:
 
-- sumaEdades: La suma de edades de los objetos que tengan el género.
-- personas: Cantidad de personas con el género.
-- edadPromedio: Promedio de edad de personas del género.
+-  sumaEdades: La suma de edades de los objetos que tengan el género.
+-  personas: Cantidad de personas con el género.
+-  edadPromedio: Promedio de edad de personas del género.
 
 Al array inicial aplicarle el método **reduce** y asignarlo a la variable edadesGenero.
 
@@ -101,14 +101,14 @@ Al array inicial aplicarle el método **reduce** y asignarlo a la variable edade
 
 ```javascript
 const usuarios = [
-  { nombre: "Juan", edad: 25, genero: "M" },
-  { nombre: "Mariana", edad: 30, genero: "F" },
-  { nombre: "Carlos", edad: 28, genero: "M" },
-  { nombre: "Ana", edad: 22, genero: "f" },
-  { nombre: "Jacinto", edad: 35, genero: "M" },
-];
+	{ nombre: "Juan", edad: 25, genero: "M" },
+	{ nombre: "Mariana", edad: 30, genero: "F" },
+	{ nombre: "Carlos", edad: 28, genero: "M" },
+	{ nombre: "Ana", edad: 22, genero: "f" },
+	{ nombre: "Jacinto", edad: 35, genero: "M" },
+]
 ```
 
 #### Requisitos:
 
-- La condición de género debe ser reconocida tanto si es mayúscula como si es minúscula.
+-  La condición de género debe ser reconocida tanto si es mayúscula como si es minúscula.

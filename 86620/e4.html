@@ -1,0 +1,10 @@
+<script>
+	/* Crear una función llamada fn2 que retorne la suma o la resta de valores excluyendo el primer parámetro y usando el método reduce: */
+
+	function fn2(op, ...args) {
+		if (op === "+") return args.reduce((acc, act) => acc + act, 0)
+		return args.reduce((acc, act) => acc - act, 0)
+	}
+
+	console.log(fn2("-", 4, 5, 8, 2, -4, 0, 77))
+</script>

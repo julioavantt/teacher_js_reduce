@@ -1,0 +1,12 @@
+<script>
+	const numeros = [3, 5, 7, 0, "amor", 1, 3, 5, -3, NaN]
+
+	const sumados = numeros.reduce((acc, actual) => {
+		if (typeof actual === "number" && actual > 0) {
+			acc += actual
+		}
+		return acc
+	}, 0)
+
+	console.log(sumados)
+</script>

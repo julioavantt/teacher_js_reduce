@@ -1,37 +1,38 @@
 <script>
-  const usuarios = [
-    { nombre: "Juan", edad: 25, genero: "M" },
-    { nombre: "Mariana", edad: 30, genero: "F" },
-    { nombre: "Carlos", edad: 28, genero: "M" },
-    { nombre: "Ana", edad: 22, genero: "f" },
-    { nombre: "Jacinto", edad: 35, genero: "M" },
-  ];
+	const usuarios = [
+		{ nombre: "Juan", edad: 25, genero: "M" },
+		{ nombre: "Mariana", edad: 30, genero: "F" },
+		{ nombre: "Carlos", edad: 28, genero: "M" },
+		{ nombre: "Ana", edad: 22, genero: "f" },
+		{ nombre: "Jacinto", edad: 35, genero: "M" },
+	]
 
-  const valorInicial = {
-    masc: {
-      sumaEdades: 0,
-      personas: 0,
-      edadPromedio: 0,
-    },
-    fem: {
-      sumaEdades: 0,
-      personas: 0,
-      edadPromedio: 0,
-    },
-  };
+	const valorInicial = {
+		masc: {
+			sumaEdades: 0,
+			personas: 0,
+			edadPromedio: 0,
+		},
+		fem: {
+			sumaEdades: 0,
+			personas: 0,
+			edadPromedio: 0,
+		},
+	}
 
-  const edadesGenero = usuarios.reduce((acc, actual) => {
-    if (actual.genero.toUpperCase() === "M") {
-      acc.masc.personas += 1;
-      acc.masc.sumaEdades += actual.edad;
-      acc.masc.edadPromedio = acc.masc.sumaEdades / acc.masc.personas;
-    } else if (actual.genero.toUpperCase() === "F") {
-      acc.fem.personas += 1;
-      acc.fem.sumaEdades += actual.edad;
-      acc.fem.edadPromedio = acc.fem.sumaEdades / acc.fem.personas;
-    }
-    return acc;
-  }, valorInicial);
+	const edadesGenero = usuarios.reduce((acc, actual) => {
+		if (actual.genero.toUpperCase() === "M") {
+			acc.masc.personas += 1
+			acc.masc.sumaEdades += actual.edad
+			acc.masc.edadPromedio =
+				acc.masc.sumaEdades / acc.masc.personas
+		} else if (actual.genero.toUpperCase() === "F") {
+			acc.fem.personas += 1
+			acc.fem.sumaEdades += actual.edad
+			acc.fem.edadPromedio = acc.fem.sumaEdades / acc.fem.personas
+		}
+		return acc
+	}, valorInicial)
 
-  console.log(edadesGenero);
+	console.log(edadesGenero)
 </script>
